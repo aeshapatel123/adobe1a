@@ -117,11 +117,6 @@
       "page": 10
     },
     {
-      "level": "TITLE",
-      "text": "part.",
-      "page": 10
-    },
-    {
       "level": "H3",
       "text": "ii. Grid Computing:",
       "page": 11
@@ -289,11 +284,6 @@
     {
       "level": "H1",
       "text": "Version space",
-      "page": 31
-    },
-    {
-      "level": "H1",
-      "text": "List-Then-Eliminate algorithm.",
       "page": 31
     },
     {

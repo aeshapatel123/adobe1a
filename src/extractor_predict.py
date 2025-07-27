@@ -10,6 +10,31 @@ from src.classifier import HeadingClassifier
 POPLER_PATH = r"C:\poppler\Library\bin"
 classifier = HeadingClassifier("models/heading_classifier.pkl")
 
+def clean_outline(outline):
+    cleaned = []
+    for item in outline:
+        text = item["text"].strip()
+
+        # Skip empty or very short lines
+        if len(text) < 3:
+            continue
+
+        # Skip lines ending with full stop or danda (।) -> likely paragraph
+        if text.endswith(".") or text.endswith("।"):
+            continue
+
+        # Skip lines with too many spaces (broken OCR lines)
+        if text.count(" ") > len(text) * 0.5:
+            continue
+
+        # Skip long lines without typical heading patterns
+        if not re.match(r"^\d+[\.\)]", text) and ":" not in text and len(text.split()) > 8:
+            continue
+
+        cleaned.append(item)
+
+    return cleaned
+
 def extract_outline(pdf_path, out_path):
     if _is_scanned_pdf(pdf_path):
         lines_data = _extract_with_ocr(pdf_path)
@@ -39,21 +64,25 @@ def extract_outline(pdf_path, out_path):
 
         outline.append({"level": label, "text": line["text"], "page": line["page"]})
 
+    # Assign title if missing
     if not title:
         for i, item in enumerate(outline):
             if item["level"] in ["H1", "H2"]:
                 title = item["text"]
                 outline.pop(i)
                 break
-
     if not title:
         title = Path(pdf_path).stem
+
+    # 🧹 CLEANUP STEP HERE
+    outline = clean_outline(outline)
 
     data = {"title": title, "outline": outline}
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"✅ Output saved: {out_path}")
 
+# ---------------- HELPERS ----------------
 def _is_scanned_pdf(pdf_path):
     doc = fitz.open(pdf_path)
     return all(page.get_text().strip() == "" for page in doc)
