@@ -1,0 +1,305 @@
+{
+  "title": "Need for machine learning:",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "Learning system of Machine learning",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "1. Supervised Learning:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "This again has 2 methods:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "2. Unsupervised learning:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "3. Semi-Supervised Learning:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "4. Reinforcement Learning:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "1. Machine learning and Artificial intelligence:",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "3. Machine learning and statistics:",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Supervised Learning:",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "i. Classification:",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "ii. Regression:",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "i. Cluster analysis:",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Some key clustering algorithms are:",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "ii. Dimensionality Reduction",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "iii. Association Mining:",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "listed below:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Elements of Big data:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "follows:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "3. Variety:  Bigdata can have data of different:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Structured Data Summary",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "types:",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Unstructured Data",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Types of analytics",
+      "page": 10
+    },
+    {
+      "level": "TITLE",
+      "text": "part.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "ii. Grid Computing:",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Handling missing values:",
+      "page": 12
+    },
+    {
+      "level": "TITLE",
+      "text": "Removal of noisy or Outlier Data:",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Data Integration and Transformation:",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Descriptive Statistics:",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Classification of Data",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Visualization of Univariate data:",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "1. Mean",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "2. Median:",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "3. Mode:",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "i. Range:",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "ii. Standard Deviation",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Skewness",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Kurtosis",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Bivariate Data",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Multivariate Data:",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Covariance:",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Correlation:",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "1. Discrete probability distribution:",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "i. Binomial distribution:",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "ii. Poisson Distribution:",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "iii. Bernoulli Distribution:",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "i. Normal Distribution:",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "ii. Rectangular Distribution",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "iii. Exponential Distribution",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "1. Choosing a training experience",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "2. Choosing a target function",
+      "page": 26
+    },
+    {
+      "level": "TITLE",
+      "text": "3. Representation of a target function",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "4. Function approximation",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "error given as:",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "as follows:",
+      "page": 27
+    },
+    {
+      "level": "TITLE",
+      "text": "Specialization  - General to Specific Learning",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Limitations of Find-S Algorithm",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Version space",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "List-Then-Eliminate algorithm.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "k-NN Algorithm:",
+      "page": 33
+    }
+  ]
+}

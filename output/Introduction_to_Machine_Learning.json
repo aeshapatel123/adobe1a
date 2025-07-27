@@ -1,0 +1,50 @@
+{
+  "title": "Introduction to Machine Learning",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Definition",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Goal of Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Types of Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Common Algorithms",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Applications of Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Steps in a Machine Learning Process",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Challenges in Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Tools & Languages Used",
+      "page": 1
+    },
+    {
+      "level": "TITLE",
+      "text": "Introduction to Machine Learning",
+      "page": 2
+    }
+  ]
+}

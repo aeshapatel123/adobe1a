@@ -1,0 +1,13 @@
+# PDF processing & OCR
+PyMuPDF==1.23.21
+pdf2image==1.17.0
+pytesseract==0.3.10
+
+# Machine Learning
+xgboost==2.0.3
+scikit-learn==1.5.0
+pandas==2.2.2
+numpy==1.26.4
+
+# Image utilities
+Pillow==10.3.0
